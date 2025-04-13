@@ -12,6 +12,11 @@ This project implements various graph search algorithms including:
 * **Custom Uninformed Search (CUS1)**: Iterative Deepening Depth-First Search (IDDFS)
 
 It parses graphs from a structured text file and finds optimal or heuristic-based paths from a start node to one or more goal nodes.
+# Contributing Members
+* Minh Khanh Huynh
+* Binh Thai Nguyen
+* Upek Malankandalage
+* Krishan Ramesh
 # Features
 * Flexible and extensible graph parsing from file
 
@@ -33,7 +38,66 @@ It parses graphs from a structured text file and finds optimal or heuristic-base
 ├── README.file                # This file
 ├── COS30019-2025 S1-A2_A.pdf  # Project requirements
 ```
+# Input File Format
+The graph is described using a plain text file with the following structure:
+```
+Nodes:
+1: (4,1)
+2: (2,2)
+3: (4,4)
+4: (6,3)
+5: (5,6)
+6: (7,5)
 
+Edges:
+(2,1): 4
+(3,1): 5
+(1,3): 5
+(2,3): 4
+(3,2): 5
+(4,1): 6
+(1,4): 6
+(4,3): 5
+(3,5): 6
+(5,3): 6
+(4,5): 7
+(5,4): 8
+(6,3): 7
+(3,6): 7
 
+Origin:
+2
+
+Destinations:
+5; 4
+```
+* ```Nodes```: Each line defines a node with its ID and (x, y) coordinate.
+
+* ```Edges```: Each line defines an edge between two nodes and its cost.
+
+* ```Origin```: The starting node.
+
+* ```Destinations```: One or more goal nodes separated by semicolons.
+
+# Usage
+1. Make sure you have **Python 3** installed.
+
+2. Place your graph input file (e.g., ```PathFinder-test.txt```) in the same directory.
+
+3. Run the script using:
+```
+python main.py <filename> <method>
+```
+Available search methods:
+
+* DFS
+
+* BFS
+
+* GBFS
+
+* AS
+
+* IDDFS
 
 
