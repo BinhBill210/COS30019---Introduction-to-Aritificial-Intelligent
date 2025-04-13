@@ -23,7 +23,6 @@ It parses graphs from a structured text file and finds optimal or heuristic-base
 
 * Easy to add more custom algorithms
 # File Structure
-* 
 ├── search.py                  # Entry point of the program
 ├── PathFinder-test.txt        # Testing input for the program
 ├── requirements.txt           # Required libraries for python
