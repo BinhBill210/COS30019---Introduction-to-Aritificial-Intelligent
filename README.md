@@ -121,6 +121,25 @@ Available search methods:
 * IDDFS
 
 # Running Test cases
+In this project, 12 test cases have been generated, to run the test cases, use the following command:
+```
+python test_framework2.py
+```
+or you can run ```test_framework2.ipynb``` to have a clearer visualization of the testing
+
+12 test cases:
+* Test case 1: Basic path (same as example in the PDF)
+* Test case 2: Multiple destinations with different costs
+* Test case 3: One-way paths (directed edges)
+* Test case 4: Disconnected graph
+* Test case 5: Large graph
+* Test case 6: Equal cost paths
+* Test case 7: No solution
+* Test case 8: Single node
+* Test case 9: Cyclic paths
+* Test case 10: Complex topology
+* Test case 11: Dense graph (Reduced complexity slightly for clarity)
+* Test case 12: Simple graph with clear optimal path
 
 
 
