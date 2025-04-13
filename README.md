@@ -23,7 +23,16 @@ It parses graphs from a structured text file and finds optimal or heuristic-base
 
 * Easy to add more custom algorithms
 # File Structure
-├── search.py # Entry point of the program ├── PathFinder-test.txt # Testing input for the program ├── requirements.txt # Required libraries for python ├── example_input.txt # Example graph input file ├── test_framework2.ipynb # Test cases for project ├── test_framework2.py # Test cases for project ├── README.file # This file ├── COS30019-2025 S1-A2_A.pdf # Project requirements
+```
+├── search.py                  # Entry point of the program
+├── PathFinder-test.txt        # Testing input for the program
+├── requirements.txt           # Required libraries for python
+├── example_input.txt          # Example graph input file
+├── test_framework2.ipynb      # Test cases for project
+├── test_framework2.py         # Test cases for project
+├── README.file                # This file
+├── COS30019-2025 S1-A2_A.pdf  # Project requirements
+```
 
 
 
